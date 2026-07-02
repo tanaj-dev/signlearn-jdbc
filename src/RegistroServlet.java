@@ -19,7 +19,11 @@ public class RegistroServlet extends HttpServlet {
         String apellidos = request.getParameter("apellidos");
         String correo    = request.getParameter("correo");
         String telefono  = request.getParameter("telefono");
-        Class.forName("com.mysql.cj.jdbc.Driver");
+        try {
+            Class.forName("com.mysql.cj.jdbc.Driver");
+        } catch (ClassNotFoundException e) {
+            throw new ServletException("Driver no encontrado", e);
+        }
         try (Connection conn = DriverManager.getConnection(DB_URL, DB_USER, DB_PASS)) {
             String sqlV = "SELECT id FROM usuarios WHERE documento = ? OR correo = ?";
             PreparedStatement psV = conn.prepareStatement(sqlV);

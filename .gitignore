@@ -1,0 +1,7 @@
+tomcat/
+*.class
+WebContent/WEB-INF/classes/
+WebContent/WEB-INF/lib/
+*.zip
+*.tar.gz
+.vscode/

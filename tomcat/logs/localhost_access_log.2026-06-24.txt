@@ -1,0 +1,16 @@
+0:0:0:0:0:0:0:1 - - [24/Jun/2026:21:13:19 -0500] "GET /signlearn/registro HTTP/1.1" 200 4147
+0:0:0:0:0:0:0:1 - - [24/Jun/2026:21:13:19 -0500] "GET /favicon.ico HTTP/1.1" 200 21630
+0:0:0:0:0:0:0:1 - - [24/Jun/2026:21:19:17 -0500] "POST /signlearn/registro HTTP/1.1" 200 4294
+0:0:0:0:0:0:0:1 - - [24/Jun/2026:21:22:41 -0500] "POST /signlearn/registro HTTP/1.1" 200 4294
+0:0:0:0:0:0:0:1 - - [24/Jun/2026:21:22:50 -0500] "POST /signlearn/registro HTTP/1.1" 200 4294
+0:0:0:0:0:0:0:1 - - [24/Jun/2026:21:22:50 -0500] "GET /favicon.ico HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [24/Jun/2026:21:23:21 -0500] "GET /signlearn/registro HTTP/1.1" 200 4147
+0:0:0:0:0:0:0:1 - - [24/Jun/2026:21:25:46 -0500] "GET /signlearn/registro HTTP/1.1" 200 4147
+0:0:0:0:0:0:0:1 - - [24/Jun/2026:21:26:10 -0500] "POST /signlearn/registro HTTP/1.1" 200 4294
+0:0:0:0:0:0:0:1 - - [24/Jun/2026:21:41:01 -0500] "POST /signlearn/registro HTTP/1.1" 200 4294
+0:0:0:0:0:0:0:1 - - [24/Jun/2026:21:41:27 -0500] "GET /signlearn/registro HTTP/1.1" 200 4147
+0:0:0:0:0:0:0:1 - - [24/Jun/2026:21:42:23 -0500] "POST /signlearn/registro HTTP/1.1" 200 4248
+0:0:0:0:0:0:0:1 - - [24/Jun/2026:21:47:12 -0500] "POST /signlearn/registro HTTP/1.1" 200 4248
+0:0:0:0:0:0:0:1 - - [24/Jun/2026:21:52:02 -0500] "POST /signlearn/registro HTTP/1.1" 200 4257
+0:0:0:0:0:0:0:1 - - [24/Jun/2026:21:55:07 -0500] "POST /signlearn/registro HTTP/1.1" 200 4248
+0:0:0:0:0:0:0:1 - - [24/Jun/2026:21:58:26 -0500] "GET /signlearn/registro HTTP/1.1" 200 4147

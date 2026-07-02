@@ -7,9 +7,9 @@ import java.sql.*;
 @WebServlet("/registro")
 public class RegistroServlet extends HttpServlet {
 
-    private static final String DB_URL  = "jdbc:mysql://localhost:3306/signlearn_jdbc";
+    private static final String DB_URL  = "jdbc:mysql://zephyr.proxy.rlwy.net:51879/railway";
     private static final String DB_USER = "root";
-    private static final String DB_PASS = "root";
+    private static final String DB_PASS = "bmaZRFlqDDKnlXvNMuHYsfpvwBHVWyMM";
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
